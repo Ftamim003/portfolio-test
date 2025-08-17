@@ -245,7 +245,7 @@
 /* Small devices (mobile) */
 @media (max-width: 767px) {
   .custom-img {
-    top: -25px;   
+    top: -15px;   
     left: 0px;   
   }
 }
