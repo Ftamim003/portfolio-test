@@ -236,6 +236,20 @@
 	}
 }
 
+.custom-img {
+  position: relative;
+  top: -86px;   /* default for medium & large */
+  left: 112px;
+}
+
+/* Small devices (mobile) */
+@media (max-width: 767px) {
+  .custom-img {
+    top: -25px;   
+    left: 0px;   
+  }
+}
+
 /* query lgwd (1025) styles */
 /* query xl (1230) styles */
 @media (min-width: 1230px) {
